@@ -79,6 +79,9 @@ module.exports = env => {
 			'react-dom': 'ReactDOM',
 			wp: 'wp',
 		},
+		performance: {
+			hints: false,
+		},
 	};
 
 	// Notification for dev.
